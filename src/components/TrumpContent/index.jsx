@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './trump_content.css'
 
-import TrumpPreloader from '../TrumpPreloader'
+import TrumpImage from '../TrumpImage';
 
 class TrumpContent extends Component {
   render() {
     return (
       <div className="TrumpContent">
-        <TrumpPreloader />
+        <TrumpImage/>
       </div>
     );
   }

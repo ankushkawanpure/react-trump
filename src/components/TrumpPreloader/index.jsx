@@ -7,7 +7,7 @@ import TrumpSvg from './TrumpSvg';
 class TrumpPreloader extends Component {
   render() {
     return (
-      <div className="wrap">
+      <div className="TrumpPreloader">
         <TrumpSvg></TrumpSvg>
       </div>
     );

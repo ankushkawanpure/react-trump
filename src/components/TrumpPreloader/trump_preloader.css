@@ -1,16 +1,15 @@
-.svg-preloader {
-  enable-background: new 0 0 441 214.3;
-}
-
-.wrap {
+.TrumpPreloader {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   height: 100%;
+}
+
+.svg-preloader {
+  enable-background: new 0 0 441 214.3;
 }
 
 .trump-logo {
@@ -27,51 +26,42 @@
   fill: #af2d25;
 }
 
-#letter-p path,
-#letter-t path {
+#letter-p path, #letter-t path {
   fill: #001a6b;
 }
 
 #letter-t {
   -webkit-animation: pence-a-tration .85s infinite;
-          animation: pence-a-tration .85s infinite;
+  animation: pence-a-tration .85s infinite;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 #letter-p {
-  -webkit-animation: pence-a-tration .85s infinite;
-          animation: pence-a-tration .85s infinite;
-  -webkit-animation-delay: .25s;
-          animation-delay: .25s;
-}
-
-@-webkit-keyframes pence-a-tration {
-  0% {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
-  }
-  50% {
-    -webkit-transform: translateY(5%);
-            transform: translateY(5%);
-  }
-  100% {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
-  }
+  animation: pence-a-tration .85s infinite;
+  animation-delay: .25s;
 }
 
 @keyframes pence-a-tration {
   0% {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
   }
   50% {
-    -webkit-transform: translateY(5%);
-            transform: translateY(5%);
+    transform: translateY(5%);
   }
   100% {
-    -webkit-transform: translateY(0%);
-            transform: translateY(0%);
+    transform: translateY(0%);
+  }
+}
+
+@keyframes stripes {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10vw);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
