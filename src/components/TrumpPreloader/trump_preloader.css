@@ -1,0 +1,91 @@
+.svg-preloader {
+  enable-background: new 0 0 441 214.3;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background: #f7f7f7;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.trump-logo {
+  max-width: 200px;
+}
+.trump-logo svg {
+  width: 100%;
+  height: 150px;
+  overflow-y: visible;
+}
+
+#stripes path {
+  fill: #af2d25;
+}
+
+#letter-p path,
+#letter-t path {
+  fill: #001a6b;
+}
+
+#letter-t {
+  -webkit-animation: pence-a-tration .85s infinite;
+          animation: pence-a-tration .85s infinite;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+#letter-p {
+  -webkit-animation: pence-a-tration .85s infinite;
+          animation: pence-a-tration .85s infinite;
+  -webkit-animation-delay: .25s;
+          animation-delay: .25s;
+}
+
+@-webkit-keyframes pence-a-tration {
+  0% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  50% {
+    -webkit-transform: translateY(5%);
+            transform: translateY(5%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes pence-a-tration {
+  0% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  50% {
+    -webkit-transform: translateY(5%);
+            transform: translateY(5%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
