@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 import './trump_preloader.css'
-
-import TrumpSvg from './TrumpSvg';
+import TrumpSvg from './TrumpSvg'
 
 class TrumpPreloader extends Component {
   render() {
@@ -14,4 +13,4 @@ class TrumpPreloader extends Component {
   }
 }
 
-export default TrumpPreloader;
+export default TrumpPreloader

@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+
 import './footer.css'
+
+import DancingTrump from '../DancingTrump'
 
 class Footer extends Component {
   render() {
     return (
       <footer>
-        <h5>This is our footer component.</h5>
+        <DancingTrump />
       </footer>
     );
   }
