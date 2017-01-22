@@ -15,3 +15,7 @@ header {
 footer {
   border: red solid 2px;
 }
+
+* {
+  cursor: url(//b.thumbs.redditmedia.com/SmMfIhXtlxDYRZYydbzCSIf9SLig4zn-zmOZBrPJ_oQ.png), default!important;
+}
