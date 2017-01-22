@@ -6,14 +6,40 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Header />
+        <TrumpContent />
+        <Footer />
       </div>
+    );
+  }
+}
+
+class TrumpContent extends Component {
+  render() {
+    return (
+      <div className="TrumpContent">
+        <p>Lets put our main content here.</p>
+      </div>
+    );
+  }
+}
+
+class Header extends Component {
+  render() {
+    return (
+      <header>
+        <h2>Trump React header component</h2>
+      </header>
+    );
+  }
+}
+
+class Footer extends Component {
+  render() {
+    return (
+      <footer>
+        <h5>This is our footer component.</h5>
+      </footer>
     );
   }
 }
