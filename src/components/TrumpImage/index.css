@@ -19,18 +19,10 @@
   margin-left: 14px;
 }
 
-.TrumpImageContainer .TrumpHairAnimated {
-  position: absolute;
-  background-image: url(./hair.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  z-index: 2;
-  width: 383px;
-  height: 320px;
-  bottom: 281px;
-  margin-left: 14px;
 
-  animation: hairAnim 1s infinite;
+.TrumpImageContainer .TrumpHair:hover{
+  animation: hairAnim 1s;
+
   transition-timing-function: ease-in;
 }
 
