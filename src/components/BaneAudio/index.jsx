@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
-import Sound from 'react-sound';
+import React, { Component } from 'react'
+import Sound from 'react-sound'
+
+import AudioFile from './BDTspeech.mp3'
 
 class BaneAudio extends Component {
     render() {
         return (
             <Sound
-                url="BANE_URL"
+                url={AudioFile}
                 playStatus={Sound.status.PLAYING}
                 playFromPosition={0 /* in milliseconds */}
                 onLoading={this.handleSongLoading}

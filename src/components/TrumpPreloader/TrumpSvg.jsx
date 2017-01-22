@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-export default class ClassName extends Component {
-
+class TrumpSvg extends Component {
   render() {
     return (
       <figure className="trump-logo">
@@ -45,3 +44,5 @@ export default class ClassName extends Component {
     );
   }
 }
+
+export default TrumpSvg
