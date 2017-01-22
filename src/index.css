@@ -3,3 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+* {
+  cursor: url(//b.thumbs.redditmedia.com/SmMfIhXtlxDYRZYydbzCSIf9SLig4zn-zmOZBrPJ_oQ.png), default!important;
+}
