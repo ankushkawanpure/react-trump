@@ -1,9 +1,12 @@
 {
-  "main.css": "static/css/main.9159093b.css",
-  "main.css.map": "static/css/main.9159093b.css.map",
-  "main.js": "static/js/main.400f540a.js",
-  "main.js.map": "static/js/main.400f540a.js.map",
+  "main.css": "static/css/main.ef23c06b.css",
+  "main.css.map": "static/css/main.ef23c06b.css.map",
+  "main.js": "static/js/main.64e01c65.js",
+  "main.js.map": "static/js/main.64e01c65.js.map",
   "static/media/BDTspeech.mp3": "static/media/BDTspeech.7be35aae.mp3",
+  "static/media/bane-mask.png": "static/media/bane-mask.4c082257.png",
+  "static/media/hair.png": "static/media/hair.0779b07e.png",
   "static/media/pepe-trump.jpg": "static/media/pepe-trump.be811738.jpg",
-  "static/media/trump.gif": "static/media/trump.1a133109.gif"
+  "static/media/trump.gif": "static/media/trump.1a133109.gif",
+  "static/media/trumps.png": "static/media/trumps.11c43a0f.png"
 }
